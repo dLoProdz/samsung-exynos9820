@@ -55,10 +55,11 @@ jobs:
           set -e -o pipefail
           ./cruelbuild config                    \
                        model=${{ matrix.model }} \
-                       name="Cruel-devel"        \
+                       name="CruelK-dLoProdz"        \
                        toolchain=$TOOLCHAIN      \
                        +magisk                   \
                        +nohardening              \
+                       +kali                     \
                        +ttl                      \
                        +wireguard                \
                        +cifs                     \
