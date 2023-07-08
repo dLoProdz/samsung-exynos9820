@@ -60,6 +60,7 @@ jobs:
                        +magisk                   \
                        +nohardening              \
                        +kali                     \
+                       +mass_storage             \
                        +ttl                      \
                        +wireguard                \
                        +cifs                     \
